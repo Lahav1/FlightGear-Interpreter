@@ -22,7 +22,7 @@ Parser::Parser(string p) {
  * The Output:
  * Function Operation:  create a map from string to command.
  *                      some commands use the var collection and some use the command map.
- *                      each command us created once, and when needed, execute function is called
+ *                      each command is created once, and when needed, execute function is called
  *                      with different parameters.
  ****************************************************/
 void Parser::createCmdMap() {
